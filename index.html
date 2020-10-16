@@ -20,45 +20,45 @@
             </header>
             <section class="container">
                 <div class="row">
-                    <button type="button" class="btn btn-others col-sm">%</button>
-                    <button type="button" class="btn btn-others col-sm">√</button>
-                    <button type="button" class="btn btn-others col-sm">x²</button>
-                    <button type="button" class="btn btn-others col-sm">¹/x</button>
+                    <button type="button" class="btn btn-others col-sm"onclick="porcento()">%</button>
+                    <button type="button" class="btn btn-others col-sm"onclick="raizQuadrada()">√</button>
+                    <button type="button" class="btn btn-others col-sm"onclick="dobro()">x²</button>
+                    <button type="button" class="btn btn-others col-sm"onclick="decimal()">¹/x</button>
                 </div>
                 <div class="row">
-                    <button type="button" class="btn btn-others col-sm">CE</button>
-                    <button type="button" class="btn btn-others col-sm">C</button>
-                    <button type="button" class="btn btn-others col-sm">←</button>
-                    <button type="button" class="btn btn-others col-sm">÷</button>
+                    <button type="button" class="btn btn-others col-sm"onclick="clearEntry()">CE</button>
+                    <button type="button" class="btn btn-others col-sm"onclick="clearAll()">C</button>
+                    <button type="button" class="btn btn-others col-sm"onclick="backspace()">←</button>
+                    <button type="button" class="btn btn-others col-sm"onclick="divisor()">÷</button>
                 </div>
                 <div class="row">
-                    <button type="button" class="btn btn-number col-sm">7</button>
-                    <button type="button" class="btn btn-number col-sm">8</button>
-                    <button type="button" class="btn btn-number col-sm">9</button>
-                    <button type="button" class="btn btn-others col-sm">X</button>
+                    <button type="button" class="btn btn-number col-sm"onclick="clicou(7)">7</button>
+                    <button type="button" class="btn btn-number col-sm"onclick="clicou(8)">8</button>
+                    <button type="button" class="btn btn-number col-sm"onclick="clicou(9)">9</button>
+                    <button type="button" class="btn btn-others col-sm"onclick="multi()">x</button>
                 </div>
                 <div class="row">
-                    <button type="button" class="btn btn-number col-sm">4</button>
-                    <button type="button" class="btn btn-number col-sm">5</button>
-                    <button type="button" class="btn btn-number col-sm">6</button>
-                    <button type="button" class="btn btn-others col-sm">-</button>
+                    <button type="button" class="btn btn-number col-sm"onclick="clicou(4)">4</button>
+                    <button type="button" class="btn btn-number col-sm"onclick="clicou(5)">5</button>
+                    <button type="button" class="btn btn-number col-sm"onclick="clicou(6)">6</button>
+                    <button type="button" class="btn btn-others col-sm"onclick="sub()">-</button>
                 </div>
                 <div class="row">
-                    <button type="button" class="btn btn-number col-sm">1</button>
-                    <button type="button" class="btn btn-number col-sm">2</button>
-                    <button type="button" class="btn btn-number col-sm">3</button>
-                    <button type="button" class="btn btn-others col-sm">+</button>
+                    <button type="button" class="btn btn-number col-sm"onclick="clicou(1)">1</button>
+                    <button type="button" class="btn btn-number col-sm"onclick="clicou(2)">2</button>
+                    <button type="button" class="btn btn-number col-sm"onclick="clicou(3)">3</button>
+                    <button type="button" class="btn btn-others col-sm"onclick="sum()">+</button>
                 </div>
                 <div class="row">
-                    <button type="button" class="btn btn-others col-sm">±</button>
-                    <button type="button" class="btn btn-number col-sm">0</button>
-                    <button type="button" class="btn btn-others col-sm">,</button>
-                    <button type="button" class="btn btn-others col-sm">=</button>
+                    <button type="button" class="btn btn-others col-sm"onclick="changeSignal()">±</button>
+                    <button type="button" class="btn btn-number col-sm"onclick="clicou('0')">0</button>
+                    <button type="button" class="btn btn-others col-sm"onclick="clicou(',')">,</button>
+                    <button type="button" class="btn btn-others col-sm"onclick="equal()">=</button>
                 </div>
             </section>
 
         </div>
     </div>
-<script src="scripts/script.js"></script>
+<script src="scripts/controller/script.js"></script>
 </body>
 </html>
